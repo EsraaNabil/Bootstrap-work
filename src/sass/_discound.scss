@@ -1,0 +1,30 @@
+.sec3{
+    background-image:url('sky.jpg');
+    height: 70vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    a{
+      color: $white;
+      i{
+        color: $white;
+        width: 20px;
+        height: 20px;
+      }
+    }   
+}
+
+@media all and (max-width:557px){
+  .sec3{
+    a{
+      font-size: 12px;
+    }
+    p{
+      margin-bottom: 0px;
+      font-size: 10px;
+    }
+    .lead{
+      font-size: 10px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.share{
+    background: url(freebie-03.jpg);
+    background-position: bottom;
+    background-size: cover;
+    padding: 7% 0px;
+    img{
+        height: 50px;
+        width: 50px;
+        margin: 7px;
+    }
+}
+
+@media all and (max-width:557px){
+   .share{
+       img{
+           height: 30px;
+           width: 30px;
+       }
+   }
+  }
